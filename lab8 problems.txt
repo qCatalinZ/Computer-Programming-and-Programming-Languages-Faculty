@@ -1,0 +1,76 @@
+1.)
+Să se scrie un program C++ care conține o (singură) funcție ce returnează numărul de apariții ale subșirului sir2 in șirul sir1, precum și indecșii de la care încep subșirurile  sir2  in sir1.  
+
+sir1 conține maxim 1000 de caractere, iar sir2 maxim 100 caractere.
+
+NU se folosesc funcții din biblioteca cstring. Prelucrarile se fac la nivel de caracter.
+
+În funcția main() se citesc datele de intrare, se apelează funcția și se afișează pe 2 linii separate:  numărul de apariții, respectiv indecșii separați de un spațiu. 
+
+NU se folosesc variabile globale.
+
+Date de intrare:  
+
+sir1 sir2 
+
+Date de ieșire: 
+
+Linia 1:  Numărul de apariții ale sir2 in sir1.  În cazul în care sir2 nu se găsește in interiorul sir1, se va afișa 0.
+Linia 2: indecșii de la care încep sir2 în sir1, separați prin spațiu. Daca sir2 nu se găsește în sir1, Linia 2 rămâne goală. 
+
+Exemplu:
+
+Date de intrare:
+
+anaaremereareana are
+
+Date de ieșire:
+
+2
+
+3 10
+
+2.)
+Se va implementa funcția  ...Rational2Zecimal(int NR, int NUM ...)
+
+care primește ca parametrii (cel puțin) două numere întregi reprezentând numărătorul NR, respectiv numitorul NUM unui număr rațional și calculează/returnează forma sa zecimală formata din parte întreagă și parte fracționară (cifrele de după după virgula). Partea fracționară trebuie sa aibă 100 de zecimale exacte (ultima obținută prin trunchiere). Dacă partea fracționară are zerouri la sfârșit aceste sunt ignorate.
+
+În funcția main() se vor citi de la tastatura 2 numere întregi, se apelează funcția și se vor afișa, pe linii separate: partea întreagă, respectiv partea fracționară.
+
+NU se vor folosi variabile globale.
+
+Exemplu 1:
+
+Date de intrare:
+
+17 10
+
+Date de ieșire:
+
+1
+
+7
+
+Exemplu 2:
+
+Date de intrare:
+
+15 3840
+
+Date de ieșire:
+
+0
+
+00390625
+
+Exemplu 3:
+
+Date de intrare:
+
+196638 61440
+
+Date de ieșire:
+
+3
+
+20048828125

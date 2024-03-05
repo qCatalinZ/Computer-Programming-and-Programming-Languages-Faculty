@@ -1,0 +1,55 @@
+1.)
+Se citesc de la tastatura valori întregi pozitive fără semn pe 16 biți, până când se citește valoarea 0.
+
+Se vor afișa pe același rând, despărțite printr-un spațiu pozițiile la care apar maximele locale (nu se pune spatiu la sfarsitul randului). Prima valoare se afla pe poziția 0. O valoare este de maxim local daca vecinii săi de la dreapta si stânga sunt mai mici decât ea.
+
+Pe al doilea rând se va afișa distanța maximă dintre două maxime locale succesive.
+
+Se garantează ca in șir exista cel puțin 2 maxime locale.
+
+Exemplu:
+
+Date de intrare:
+
+1 2 13 18 238 23 46 28 38 93 99 99 56 16 15 18 28 19 56 29 21 22 38 47 29 58 38 48 39 29 29 38 0
+
+Date de ieșire:
+
+4 6 16 18 23 25 27
+
+10
+
+
+2.)
+Descriere
+Fie N un număr natural cu cel mult 500 de cifre. Afișați restul împărțirii lui N la 3.
+Date de intrare
+Pe prima linie N, un număr natural cu cel mult 500 de cifre.
+Date de ieșire
+Pe prima linie, un număr natural, restul lui N la 3.
+Exemplu
+Date de intrare:
+1231377485112158912315
+Date de ieșire:
+2
+
+
+3.)
+Descriere
+Fiind dată o expresie matematică ce conține doar numere naturale și operatorii {+, -}, afișați
+rezultatul final.
+Se garantează faptul că expresia matematică este corectă.
+Se garantează faptul că numerele vor fi corecte și vor avea cel mult 12 cifre.
+Se garantează că nu vor exista 2 operatori unul după altul.
+Se garantează că expresia va conține doar cifre și cei doi operatori.
+Se garantează că dimensiunea maximă a expresiei este de 1000 de caractere.
+Date de intrare
+Pe prima linie o expresie matematică de cel mult 1000 de caractere. Expresia va respecta
+garanțiile anterior menționate.
+Date de ieșire
+Pe prima linie, un număr întreg, rezultatul final al expresiei.
+Exemplu
+Date de intrare:
+123+456-789
+Date de ieșire:
+-210
